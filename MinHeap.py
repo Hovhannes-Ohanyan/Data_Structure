@@ -9,7 +9,6 @@ class MinHeap:
         self.Heap[0] = -1 * sys.maxsize
         self.FRONT = 1
 
-
     def parent(self, pos):
         return pos//2
 
